@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- common metas-->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Szaraz Ferenc" />
+    <meta name="content-language" content="hu, hun, hungarian">
+    <meta name="description" content="standup list" />
+    <meta name="keywords" content="list" />
+    <meta name="robots" content="All" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="logcustomtarget" content="1" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="distribution" content="Global" />
+    <meta name="copyright" content="Szaraz Ferenc" />
+    <meta name="resource-type" content="document" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="cache-control" content="must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="hu-hu" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <style type="text/css">
+        @import url(style/style.css);
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="scripts/do.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <span class="header_title">Standup participants - Who is here?</span>
+        <span class="header_countdown">Remaining time: <span class="countdown"></span></span>
+    </div>
+    <div id="content">
+
+        <div class="container"></div>
+        <div class="chip_container"></div>
+        <div class="primary_btn" id="standupstart">START</div>
+        <!---->
+        <div class="secondary_btn" id="addparticipants">add participants</div>
+        <div class="addparticipants_overlay">
+            <div class="addparticipants_window">
+                <img class="addparticipants_img" src="src/dummy.png">
+                <span>Add participant</span>
+                <div class="addparticipants_content"><label>Name</label><input type="text" id="pname" required></div>
+                <div class="addparticipants_content"><label>Title</label><input type="text" id="ptitle" required></div>
+                <div class="primary_btn" id="add">Add</div>
+                <div class="secondary_btn" id="cancel">cancel</div>
+                <!--<div class="secondary_btn" id="fill">fill</div>-->
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <span class="footer_title"><sup>*</sup>Click participants</span>
+        <span class="azure-circle">Offline</span>
+        <span class="blue-circle">Online</span>
+        <span class="green-circle">Spoken</span>
+    </div>
+
+
+
+</body>
+
+</html>
