@@ -2,3 +2,4 @@
 /data.txt
 /sketch/faces.sketch
 /src/*.png
+!/src/dummy.png
