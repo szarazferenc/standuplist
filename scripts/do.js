@@ -113,7 +113,6 @@ var interval = null;
 })(jQuery);
 
 $(document).ready(function() {
-    $("#standupstart").ShuffleArray(sp);
     $("#standupstart").GenerateParticipants();
     $("#standupstart").click(function() {
         start = 1
