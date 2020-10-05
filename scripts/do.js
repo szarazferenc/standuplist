@@ -1,7 +1,7 @@
 var sp = [
     //['0',       '1',    '2',     '3',   4,     5],
     //['company', 'name', 'title', 'img', jelen, beszelt],
-    ['WUP', 'Kovács Zsombor', 'Manual Tester', '', true, false],
+    ['WUP', 'Kovács Zsombor', 'Manual Tester', 'zskovacs.png', true, false],
     ['WUP', 'Bíró Gáspár', 'Automata tester', 'gbiro.png', true, false],
     ['WUP', 'Bodnár Kristóf', 'DevOps', 'kbodnar.png', true, false],
     ['WUP', 'Wolff Péter', 'Business Consultant', 'pwolff.png', true, false],
