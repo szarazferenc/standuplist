@@ -1,28 +1,3 @@
-var sp = [
-    //['0',       '1',    '2',     '3',   4,     5],
-    //['company', 'name', 'title', 'img', jelen, beszelt],
-    ['WUP', 'Kovács Zsombor', 'Manual Tester', 'zskovacs.png', true, false],
-    ['WUP', 'Bíró Gáspár', 'Automata tester', 'gbiro.png', true, false],
-    ['WUP', 'Bodnár Kristóf', 'DevOps', 'kbodnar.png', true, false],
-    ['WUP', 'Wolff Péter', 'Business Consultant', 'pwolff.png', true, false],
-    ['WUP', 'Száraz Ferenc', 'Business Consultant', 'fszaraz.png', true, false],
-    ['WUP', 'Szigeti Erik', 'Backend fejlesztő', 'eszigeti.png', true, false],
-    ['WUP', 'Mészáros Patrik', 'Backend fejlesztő', 'pmeszaros.png', true, false],
-    ['WUP', 'Rausz Dániel', 'Backend fejlesztő', 'drausz.png', true, false],
-    ['WUP', 'Novák Béla', 'Backend fejlesztő', 'bnovak.png', true, false],
-    ['WUP', 'Bederna Attila', 'Backend fejlesztő, TL', '', true, false],
-    ['WUP', 'Vaszil Ádám', 'Android mobil fejlesztő, TL', 'avaszil.png', true, false],
-    ['WUP', 'Lödi Myriam', 'Android mobil fejlesztő', 'mlodi.png', true, false],
-    ['WUP', 'Lukács Dániel', 'Android mobil fejlesztő', 'dlukacs.png', true, false],
-    ['WUP', 'Boros Bence', 'Android mobil fejlesztő', 'bboros.png', true, false],
-    ['WUP', 'Bányai Róbert', 'Android mobil fejlesztő', 'rbanyai.png', true, false],
-    ['WUP', 'Tamaska Richard', 'IT Delivery manager', 'rtamaska.png', true, false],
-    ['MKB', 'Jekkel Dóra Ida', 'Product Owner', 'djekkel.png', true, false],
-    ['MKB', 'Magera András', 'BA', '', true, false],
-    ['MKB', 'Ihász Zsolt', 'UI designer', 'zsihasz.png', true, false],
-    ['MKB', 'Kelemen László', 'UX designer', 'lkelemen.png', true, false],
-    ['MKB', 'Tóth Ákos', 'Tester', 'atoth.png', true, false]
-];
 var start = 0;
 var interval = null;
 
@@ -217,7 +192,6 @@ $(document).ready(function() {
     });
 
 });
-
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('../sw.js').then(() => {
