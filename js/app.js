@@ -7,7 +7,7 @@ var sp = [
     ['WUP', 'Wolff Péter', 'Business Consultant', 'pwolff.png', true, false],
     ['WUP', 'Száraz Ferenc', 'Business Consultant', 'fszaraz.png', true, false],
     ['WUP', 'Szigeti Erik', 'Backend fejlesztő', 'eszigeti.png', true, false],
-    ['WUP', 'Mészáros Patrik', 'Backend fejlesztő', '', true, false],
+    ['WUP', 'Mészáros Patrik', 'Backend fejlesztő', 'pmeszaros.png', true, false],
     ['WUP', 'Rausz Dániel', 'Backend fejlesztő', 'drausz.png', true, false],
     ['WUP', 'Novák Béla', 'Backend fejlesztő', 'bnovak.png', true, false],
     ['WUP', 'Bederna Attila', 'Backend fejlesztő, TL', '', true, false],
