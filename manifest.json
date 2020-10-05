@@ -1,0 +1,10 @@
+{
+    "name": "Standup List",
+    "short_name": "Standup",
+    "theme_color": "#454e55",
+    "background_color": "#323232",
+    "display": "minimal-ui",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+}
