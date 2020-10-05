@@ -26,8 +26,8 @@ var interval = null;
             } else {
                 var avatar = val[3];
             }
-            $(".container").append('<div class="card" id="p' + i + '" userid="' + i + '"><img src="src/' + avatar + '"><p class="participantName">' + val[1] + '</p><p class = "participantTitle">' + val[2] + '</p><div class="primary_btn" id="speak">Elmondta</div><div class="secondary_btn" id="leave">nem volt itt</div></div>');
-            $(".chip_container").append('<div class="chip" id="c' + i + '" userid="' + i + '"><img class="chipimg" src="src/' + avatar + '"><span>' + val[1] + '</span></div>');
+            $(".container").append('<div class="card" id="p' + i + '" userid="' + i + '"><img src="src/' + avatar + '" alt="' + avatar + '"><p class="participantName">' + val[1] + '</p><p class = "participantTitle">' + val[2] + '</p><div class="primary_btn" id="speak">Elmondta</div><div class="secondary_btn" id="leave">nem volt itt</div></div>');
+            $(".chip_container").append('<div class="chip" id="c' + i + '" userid="' + i + '"><img class="chipimg" src="src/' + avatar + '" alt="' + avatar + '"><span>' + val[1] + '</span></div>');
             if (val[4]) {
                 $("#c" + i).children('img').toggleClass("chipactive");
             }
